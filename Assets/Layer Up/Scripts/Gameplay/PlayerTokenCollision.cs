@@ -1,9 +1,9 @@
-using Platformer.Core;
-using Platformer.Mechanics;
-using Platformer.Model;
+using Layer_Up.Scripts.Core;
+using Layer_Up.Scripts.Mechanics;
+using Layer_Up.Scripts.Mechanics.EnvironmentInteractables;
+using Layer_Up.Scripts.Model;
 using UnityEngine;
-
-namespace Platformer.Gameplay
+namespace Layer_Up.Scripts.Gameplay
 {
     /// <summary>
     /// Fired when a player collides with a token.

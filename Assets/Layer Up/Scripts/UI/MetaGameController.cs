@@ -1,8 +1,6 @@
-using Platformer.Mechanics;
-using Platformer.UI;
+using Layer_Up.Scripts.Mechanics;
 using UnityEngine;
-
-namespace Platformer.UI
+namespace Layer_Up.Scripts.UI
 {
     /// <summary>
     /// The MetaGameController is responsible for switching control between the high level

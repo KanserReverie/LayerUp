@@ -1,9 +1,6 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
-
-
-namespace Platformer.Core
+namespace Layer_Up.Scripts.Core
 {
     /// <summary>
     /// The Simulation class implements the discrete event simulator pattern.

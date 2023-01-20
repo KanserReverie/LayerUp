@@ -1,10 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Platformer.Core;
-using Platformer.Model;
-using UnityEngine;
-
-namespace Platformer.Gameplay
+﻿using Layer_Up.Scripts.Core;
+using Layer_Up.Scripts.Model;
+namespace Layer_Up.Scripts.Gameplay
 {
     /// <summary>
     /// Fired when the player has died.

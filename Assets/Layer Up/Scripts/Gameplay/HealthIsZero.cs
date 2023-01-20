@@ -1,8 +1,8 @@
-using Platformer.Core;
-using Platformer.Mechanics;
-using static Platformer.Core.Simulation;
+using Layer_Up.Scripts.Core;
+using Layer_Up.Scripts.Mechanics;
+using static Layer_Up.Scripts.Core.Simulation;
 
-namespace Platformer.Gameplay
+namespace Layer_Up.Scripts.Gameplay
 {
     /// <summary>
     /// Fired when the player health reaches 0. This usually would result in a 

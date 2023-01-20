@@ -1,9 +1,8 @@
-using System;
-using Platformer.Gameplay;
+using Layer_Up.Scripts.Gameplay;
 using UnityEngine;
-using static Platformer.Core.Simulation;
+using static Layer_Up.Scripts.Core.Simulation;
 
-namespace Platformer.Mechanics
+namespace Layer_Up.Scripts.Mechanics
 {
     /// <summary>
     /// Represebts the current vital statistics of some game entity.

@@ -1,12 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Layer_Up.Scripts.Core;
+using Layer_Up.Scripts.Gameplay;
+using Layer_Up.Scripts.Model;
 using UnityEngine;
-using Platformer.Gameplay;
-using static Platformer.Core.Simulation;
-using Platformer.Model;
-using Platformer.Core;
+using static Layer_Up.Scripts.Core.Simulation;
 
-namespace Platformer.Mechanics
+namespace Layer_Up.Scripts.Mechanics
 {
     /// <summary>
     /// This is the main class used to implement control of the player.

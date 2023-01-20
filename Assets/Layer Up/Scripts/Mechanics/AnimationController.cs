@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Platformer.Core;
-using Platformer.Model;
+﻿using Layer_Up.Scripts.Core;
+using Layer_Up.Scripts.Model;
 using UnityEngine;
-
-namespace Platformer.Mechanics
+namespace Layer_Up.Scripts.Mechanics
 {
     /// <summary>
     /// AnimationController integrates physics and animation. It is generally used for simple enemy animation.

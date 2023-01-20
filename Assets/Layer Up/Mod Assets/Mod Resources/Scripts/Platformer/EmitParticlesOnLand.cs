@@ -1,39 +1,40 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Layer_Up.Scripts.Gameplay;
 using UnityEngine;
-using System.Reflection;
 
-[RequireComponent(typeof(ParticleSystem))]
-public class EmitParticlesOnLand : MonoBehaviour
+namespace Layer_Up.Mod_Assets.Mod_Resources.Scripts.Platformer
 {
+    [RequireComponent(typeof(ParticleSystem))]
+    public class EmitParticlesOnLand : MonoBehaviour
+    {
 
-    public bool emitOnLand = true;
-    public bool emitOnEnemyDeath = true;
+        public bool emitOnLand = true;
+        public bool emitOnEnemyDeath = true;
 
 #if UNITY_TEMPLATE_PLATFORMER
 
-    ParticleSystem p;
+        ParticleSystem p;
 
-    void Start()
-    {
-        p = GetComponent<ParticleSystem>();
+        void Start()
+        {
+            p = GetComponent<ParticleSystem>();
 
-        if (emitOnLand) {
-            Platformer.Gameplay.PlayerLanded.OnExecute += PlayerLanded_OnExecute;
-            void PlayerLanded_OnExecute(Platformer.Gameplay.PlayerLanded obj) {
-                p.Play();
+            if (emitOnLand) {
+                PlayerLanded.OnExecute += PlayerLanded_OnExecute;
+                void PlayerLanded_OnExecute(PlayerLanded obj) {
+                    p.Play();
+                }
             }
-        }
 
-        if (emitOnEnemyDeath) {
-            Platformer.Gameplay.EnemyDeath.OnExecute += EnemyDeath_OnExecute;
-            void EnemyDeath_OnExecute(Platformer.Gameplay.EnemyDeath obj) {
-                p.Play();
+            if (emitOnEnemyDeath) {
+                EnemyDeath.OnExecute += EnemyDeath_OnExecute;
+                void EnemyDeath_OnExecute(EnemyDeath obj) {
+                    p.Play();
+                }
             }
-        }
 
-    }
+        }
 
 #endif
 
+    }
 }

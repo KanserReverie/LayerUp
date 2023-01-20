@@ -1,8 +1,7 @@
-using Platformer.Core;
-using Platformer.Model;
+using Layer_Up.Scripts.Core;
+using Layer_Up.Scripts.Model;
 using UnityEngine;
-
-namespace Platformer.Mechanics
+namespace Layer_Up.Scripts.Mechanics
 {
     /// <summary>
     /// This class exposes the the game model in the inspector, and ticks the

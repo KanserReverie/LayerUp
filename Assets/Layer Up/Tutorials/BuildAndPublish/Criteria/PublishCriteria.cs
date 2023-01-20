@@ -1,8 +1,7 @@
 using System.Linq;
 using Unity.Play.Publisher.Editor;
 using UnityEngine;
-
-namespace Unity.Tutorials
+namespace Layer_Up.Tutorials.BuildAndPublish.Criteria
 {
     /// <summary>
     /// Contaisn all the callbacks needed for the Build And Publish tutorial

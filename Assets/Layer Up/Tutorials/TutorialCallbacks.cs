@@ -1,8 +1,7 @@
-﻿using UnityEngine;
-using Unity.Tutorials.Core.Editor;
+﻿using Unity.Tutorials.Core.Editor;
 using UnityEditor;
-
-namespace Unity.Tutorials
+using UnityEngine;
+namespace Layer_Up.Tutorials
 {
     /// <summary>
     /// Implement your Tutorial callbacks here.

@@ -1,7 +1,6 @@
-using Platformer.Core;
-using Platformer.Mechanics;
-
-namespace Platformer.Gameplay
+using Layer_Up.Scripts.Core;
+using Layer_Up.Scripts.Mechanics;
+namespace Layer_Up.Scripts.Gameplay
 {
     /// <summary>
     /// Fired when the health component on an enemy has a hitpoint value of  0.

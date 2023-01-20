@@ -1,6 +1,5 @@
 using UnityEngine;
-
-namespace Platformer.View
+namespace Layer_Up.Scripts.View
 {
     /// <summary>
     /// Used to move a transform relative to the main camera position with a scale factor applied.

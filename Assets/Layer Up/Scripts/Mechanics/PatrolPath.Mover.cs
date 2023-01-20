@@ -1,6 +1,5 @@
 using UnityEngine;
-
-namespace Platformer.Mechanics
+namespace Layer_Up.Scripts.Mechanics
 {
     public partial class PatrolPath
     {

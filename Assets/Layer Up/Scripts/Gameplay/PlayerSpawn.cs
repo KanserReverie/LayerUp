@@ -1,8 +1,7 @@
-using Platformer.Core;
-using Platformer.Mechanics;
-using Platformer.Model;
-
-namespace Platformer.Gameplay
+using Layer_Up.Scripts.Core;
+using Layer_Up.Scripts.Mechanics;
+using Layer_Up.Scripts.Model;
+namespace Layer_Up.Scripts.Gameplay
 {
     /// <summary>
     /// Fired when the player is spawned after dying.

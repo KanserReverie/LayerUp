@@ -1,4 +1,4 @@
-﻿namespace Platformer.Core
+﻿namespace Layer_Up.Scripts.Core
 {
     public static partial class Simulation
     {

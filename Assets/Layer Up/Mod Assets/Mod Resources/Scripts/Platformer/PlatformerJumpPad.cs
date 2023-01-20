@@ -1,21 +1,24 @@
-﻿using UnityEngine;
-using Platformer.Mechanics;
+﻿using Layer_Up.Scripts.Mechanics;
+using UnityEngine;
 
-public class PlatformerJumpPad : MonoBehaviour
+namespace Layer_Up.Mod_Assets.Mod_Resources.Scripts.Platformer
 {
-    public float verticalVelocity;
-
-    void OnTriggerEnter2D(Collider2D other)
+    public class PlatformerJumpPad : MonoBehaviour
     {
-        var rb = other.attachedRigidbody;
-        if (rb == null) return;
-        var player = rb.GetComponent<PlayerController>();
-        if (player == null) return;
-        AddVelocity(player);
-    }
+        public float verticalVelocity;
 
-    void AddVelocity(PlayerController player)
-    {
-        player.velocity.y = verticalVelocity;
+        void OnTriggerEnter2D(Collider2D other)
+        {
+            var rb = other.attachedRigidbody;
+            if (rb == null) return;
+            var player = rb.GetComponent<PlayerController>();
+            if (player == null) return;
+            AddVelocity(player);
+        }
+
+        void AddVelocity(PlayerController player)
+        {
+            player.velocity.y = verticalVelocity;
+        }
     }
 }

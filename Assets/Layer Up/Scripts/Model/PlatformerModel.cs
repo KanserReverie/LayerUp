@@ -1,7 +1,6 @@
-using Platformer.Mechanics;
+using Layer_Up.Scripts.Mechanics;
 using UnityEngine;
-
-namespace Platformer.Model
+namespace Layer_Up.Scripts.Model
 {
     /// <summary>
     /// The main model containing needed data to implement a platformer style 

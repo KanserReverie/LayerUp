@@ -1,7 +1,6 @@
-using Platformer.Core;
-using Platformer.Model;
-
-namespace Platformer.Gameplay
+using Layer_Up.Scripts.Core;
+using Layer_Up.Scripts.Model;
+namespace Layer_Up.Scripts.Gameplay
 {
     /// <summary>
     /// This event is fired when user input should be enabled.

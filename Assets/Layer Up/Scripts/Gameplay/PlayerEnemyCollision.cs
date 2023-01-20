@@ -1,10 +1,9 @@
-using Platformer.Core;
-using Platformer.Mechanics;
-using Platformer.Model;
-using UnityEngine;
-using static Platformer.Core.Simulation;
+using Layer_Up.Scripts.Core;
+using Layer_Up.Scripts.Mechanics;
+using Layer_Up.Scripts.Model;
+using static Layer_Up.Scripts.Core.Simulation;
 
-namespace Platformer.Gameplay
+namespace Layer_Up.Scripts.Gameplay
 {
 
     /// <summary>
