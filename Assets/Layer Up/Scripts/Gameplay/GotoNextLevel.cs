@@ -12,23 +12,18 @@ namespace Layer_Up.Scripts.Gameplay
         public override void Execute()
         {
             var player = model.player;
-            bool killPlayer = true;
             if (player.health.IsAlive)
             {
-                if (killPlayer)
-                {
                     player.health.Die();
                     model.virtualCamera.m_Follow = null;
                     model.virtualCamera.m_LookAt = null;
-                    // player.collider.enabled = false;
                     player.controlEnabled = false;
 
-                    if (player.audioSource && player.ouchAudio)
-                        player.audioSource.PlayOneShot(player.ouchAudio);
+                    if (player.audioSource && player.levelCompleteAudio)
+                        player.audioSource.PlayOneShot(player.levelCompleteAudio);
                     player.animator.SetTrigger("hurt");
                     player.animator.SetBool("dead", true);
-                    Simulation.Schedule<PlayerSpawn>(2);
-                }
+                    Simulation.Schedule<PlayerSpawnNextLevel>(2);
             }
         }
     }

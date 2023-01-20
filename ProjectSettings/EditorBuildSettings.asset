@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Layer Up/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Layer Up/Scenes/Game Loop Prototype.unity
+    guid: db7da26103c885c459c8b6ebb4a77481
+  - enabled: 1
+    path: Assets/Layer Up/Scenes/Main Menu.unity
+    guid: 688c0bbd410ecc648bf85ddb255b5a67
   m_configObjects: {}

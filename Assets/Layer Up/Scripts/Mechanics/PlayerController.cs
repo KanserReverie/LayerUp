@@ -15,6 +15,8 @@ namespace Layer_Up.Scripts.Mechanics
         public AudioClip jumpAudio;
         public AudioClip respawnAudio;
         public AudioClip ouchAudio;
+        public AudioClip levelCompleteAudio;
+        public AudioClip levelStartedAudio;
 
         /// <summary>
         /// Max horizontal speed of the player.
